@@ -1,0 +1,12 @@
+def listar():
+    if len(listaVeiculos) == 0:
+        print ("Não existem veículos cadastrados")
+    else:
+        i = 1
+        for veiculo in listaVeiculos:
+            print(f"Veículo: {i}")
+            print(f" - Marca: {veiculo.marca}")
+            print(f" - Modelo: {veiculo.modelo}")
+            print(f" - Placa: {veiculo.placa}")
+            print(f" - Ano: {veiculo.ano}")
+            i += 1
